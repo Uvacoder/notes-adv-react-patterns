@@ -1,7 +1,7 @@
 
 # Advanced React Patterns Notes
 
-## Context Controller
+## 1. Context Controller
 
 
 ```javascript
@@ -136,7 +136,7 @@ function Counter() {
 }
 ```
 
-## Compound Components
+## 2. Compound Components
 
 ```html
 <select>
@@ -175,7 +175,7 @@ compound components come in really handy!
   this pattern
 
 
-## Flexible Compound Components
+## 3. Flexible Compound Components
 
 Right now our component can only clone and pass props to immediate children. So
 we need some way for our compound components to implicitly accept the on state
@@ -247,7 +247,7 @@ function App() {
 export default App
 ```
 
-## Prop Collections and Getters
+## 4. Prop Collections and Getters
 
 In typical UI components, you need to take accessibility into account. For a
 button functioning as a toggle, it should have the `aria-pressed` attribute set
@@ -304,7 +304,7 @@ function App() {
 export default App
 ```
 
-## 
+## 5. Prop Collections and Getters
 
 ```jsx
 // state reducer
@@ -414,7 +414,7 @@ export default App
 
 ```
 
-## Control Props
+## 6. Control Props
 
 This concept is basically the same as controlled form elements in React that
 you've probably used many times: 📜
